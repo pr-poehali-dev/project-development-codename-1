@@ -3,9 +3,9 @@ import { cn } from '@/lib/utils';
 
 const images = [
   'https://cdn.poehali.dev/projects/0dd409e7-a4fc-4c2f-ba03-6e1424a6d5c9/files/11cd1419-3271-4999-8f09-dec260dbb131.jpg',
-  'https://cdn.poehali.dev/templates/creative-portfolio-ru/gallery-1.jpg',
-  'https://cdn.poehali.dev/templates/creative-portfolio-ru/gallery-4.jpg',
-  'https://cdn.poehali.dev/templates/creative-portfolio-ru/gallery-5.jpg',
+  'https://cdn.poehali.dev/projects/0dd409e7-a4fc-4c2f-ba03-6e1424a6d5c9/files/a2b88405-4b8c-4ca6-a353-a0a8fd9a7b39.jpg',
+  'https://cdn.poehali.dev/projects/0dd409e7-a4fc-4c2f-ba03-6e1424a6d5c9/files/6b6846b8-2f38-4b9b-a722-bd0481d861e6.jpg',
+  'https://cdn.poehali.dev/projects/0dd409e7-a4fc-4c2f-ba03-6e1424a6d5c9/files/c4abdf86-fbe7-4317-9ca8-98116b6bfb5d.jpg',
 ];
 
 export default function HeroSection() {
@@ -70,7 +70,7 @@ export default function HeroSection() {
             >
               <div className="space-y-4">
                 <p className="text-3xl font-light text-white md:text-4xl lg:text-5xl">
-                  Анастасия
+                  Илона Анурфиева
                 </p>
                 <p className="text-xl font-light text-white/80 md:text-2xl">
                   Ведущая мероприятий для детей и взрослых
