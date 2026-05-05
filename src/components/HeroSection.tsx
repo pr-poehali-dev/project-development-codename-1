@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { cn } from '@/lib/utils';
 
 const images = [
-  'https://cdn.poehali.dev/templates/creative-portfolio-ru/gallery-2.jpg',
+  'https://cdn.poehali.dev/projects/0dd409e7-a4fc-4c2f-ba03-6e1424a6d5c9/files/11cd1419-3271-4999-8f09-dec260dbb131.jpg',
   'https://cdn.poehali.dev/templates/creative-portfolio-ru/gallery-1.jpg',
   'https://cdn.poehali.dev/templates/creative-portfolio-ru/gallery-4.jpg',
   'https://cdn.poehali.dev/templates/creative-portfolio-ru/gallery-5.jpg',
@@ -55,8 +55,8 @@ export default function HeroSection() {
             >
               <div className="relative h-48 w-48 overflow-hidden rounded-full border-4 border-white shadow-2xl md:h-64 md:w-64">
                 <img
-                  src="https://cdn.poehali.dev/templates/creative-portfolio-ru/portrait.jpg"
-                  alt="Креативный специалист"
+                  src="https://cdn.poehali.dev/projects/0dd409e7-a4fc-4c2f-ba03-6e1424a6d5c9/files/11cd1419-3271-4999-8f09-dec260dbb131.jpg"
+                  alt="Ведущая мероприятий"
                   className="h-full w-full object-cover"
                 />
               </div>
@@ -70,12 +70,25 @@ export default function HeroSection() {
             >
               <div className="space-y-4">
                 <p className="text-3xl font-light text-white md:text-4xl lg:text-5xl">
-                  Алексей Иванов
+                  Анастасия
                 </p>
                 <p className="text-xl font-light text-white/80 md:text-2xl">
-                  Креативный директор | Дизайнер
+                  Ведущая мероприятий для детей и взрослых
                 </p>
-                <div className="flex gap-6 pt-4">
+                <p className="text-base font-light text-white/60 max-w-md">
+                  Корпоративы, дни рождения, выпускные и детские праздники — создаю атмосферу, которую запомнят надолго
+                </p>
+                <div className="flex flex-col gap-4 pt-2 sm:flex-row sm:items-center">
+                  <a
+                    href="https://t.me/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 rounded-full bg-white px-6 py-2 text-sm font-medium text-black transition-opacity hover:opacity-80"
+                  >
+                    Заказать мероприятие
+                  </a>
+                </div>
+                <div className="flex gap-6 pt-2">
                   <a
                     href="https://t.me/"
                     target="_blank"
