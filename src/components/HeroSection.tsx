@@ -73,7 +73,7 @@ export default function HeroSection() {
                   Ведущая мероприятий для детей и взрослых
                 </p>
                 <p className="text-base font-light text-white/60 max-w-md">
-                  Дни рождения, выпускные и детские праздники — создаю атмосферу, которую запомнят надолго
+                  Дни рождения, свадьбы, выпускные и детские праздники — создаю атмосферу, которую запомнят надолго
                 </p>
                 <div className="flex flex-col gap-4 pt-2 sm:flex-row sm:items-center">
                   <a
