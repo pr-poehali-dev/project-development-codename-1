@@ -75,14 +75,18 @@ export default function HeroSection() {
                 <p className="text-base font-light text-white/60 max-w-md">
                   Дни рождения, свадьбы, выпускные и детские праздники — создаю атмосферу, которую запомнят надолго
                 </p>
-                <div className="flex flex-col gap-4 pt-2 sm:flex-row sm:items-center">
+                <div className="flex flex-col gap-2 pt-2">
                   <a
-                    href="https://t.me/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 rounded-full bg-pink-400 px-6 py-2 text-sm font-medium text-white transition-opacity hover:opacity-80"
+                    href="tel:+79055517010"
+                    className="text-white/90 hover:text-white transition-colors text-base font-medium"
                   >
-                    Заказать мероприятие
+                    +7 (905) 551-70-10
+                  </a>
+                  <a
+                    href="mailto:ilona.an3@gmail.com"
+                    className="text-white/70 hover:text-white transition-colors text-sm"
+                  >
+                    ilona.an3@gmail.com
                   </a>
                 </div>
                 <div className="flex gap-6 pt-2">
