@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { cn } from '@/lib/utils';
 
 const images = [
-  'https://cdn.poehali.dev/projects/0dd409e7-a4fc-4c2f-ba03-6e1424a6d5c9/files/2c792b01-33cd-4ff4-8d09-5e8e6010cd41.jpg',
+  'https://cdn.poehali.dev/projects/0dd409e7-a4fc-4c2f-ba03-6e1424a6d5c9/files/379caaa2-c7f4-4600-89dc-3c73ac346194.jpg',
 ];
 
 export default function HeroSection() {
@@ -80,7 +80,7 @@ export default function HeroSection() {
                     href="https://t.me/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 rounded-full bg-white px-6 py-2 text-sm font-medium text-black transition-opacity hover:opacity-80"
+                    className="inline-flex items-center gap-2 rounded-full bg-pink-400 px-6 py-2 text-sm font-medium text-white transition-opacity hover:opacity-80"
                   >
                     Заказать мероприятие
                   </a>
