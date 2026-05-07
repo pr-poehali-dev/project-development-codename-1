@@ -111,12 +111,15 @@ export default function HeroSection() {
                   >
                     <svg
                       className="h-7 w-7"
-                      fill="currentColor"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       viewBox="0 0 24 24"
                       aria-hidden="true"
                     >
-                      <rect x="0" y="0" width="24" height="24" rx="6" ry="6"/>
-                      <path fill="white" d="M4 7.5h2.2l2.3 4.2 2.3-4.2H13v9h-2V11l-1.8 3.2h-1.4L6 11v5.5H4V7.5zm10 0h2l1.5 2.6 1.5-2.6H21l-2.5 4 2.7 5h-2.2l-1.5-2.8-1.5 2.8H14l2.7-5L14 7.5z"/>
+                      <path d="M21 11.5C21 16.19 16.97 20 12 20c-1.5 0-2.91-.35-4.15-.97L3 20l1.1-3.55A8.1 8.1 0 0 1 3 11.5C3 6.81 7.03 3 12 3s9 3.81 9 8.5z" />
                     </svg>
                   </a>
                 </div>
