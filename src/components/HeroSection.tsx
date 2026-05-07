@@ -53,7 +53,7 @@ export default function HeroSection() {
               <div className="relative h-48 w-48 overflow-hidden rounded-full border-4 border-white shadow-2xl md:h-64 md:w-64">
                 <img
                   src="https://cdn.poehali.dev/projects/0dd409e7-a4fc-4c2f-ba03-6e1424a6d5c9/bucket/96a40c5f-81ba-47f6-89d2-2c9816031433.jpg"
-                  alt="Илона Анурфиева"
+                  alt="Илона Ануфриева"
                   className="h-full w-full object-cover"
                 />
               </div>
@@ -67,7 +67,7 @@ export default function HeroSection() {
             >
               <div className="space-y-4">
                 <p className="text-3xl font-light text-white md:text-4xl lg:text-5xl">
-                  Илона Анурфиева
+                  Илона Ануфриева
                 </p>
                 <p className="text-xl font-light text-white/80 md:text-2xl">
                   Ведущая мероприятий для детей и взрослых
